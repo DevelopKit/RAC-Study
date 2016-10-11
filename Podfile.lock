@@ -1,0 +1,21 @@
+PODS:
+  - ReactiveObjC (1.0.1)
+
+DEPENDENCIES:
+  - ReactiveObjC (from `https://github.com/ReactiveCocoa/ReactiveObjC.git`)
+
+EXTERNAL SOURCES:
+  ReactiveObjC:
+    :git: https://github.com/ReactiveCocoa/ReactiveObjC.git
+
+CHECKOUT OPTIONS:
+  ReactiveObjC:
+    :commit: d75f1e020e73e895999e70dcdd0d62eccfcc6983
+    :git: https://github.com/ReactiveCocoa/ReactiveObjC.git
+
+SPEC CHECKSUMS:
+  ReactiveObjC: 0e618037d7b883b4cebcc8da203e8ed9b69ca2d3
+
+PODFILE CHECKSUM: '02329b17483edca21e5611fa8b7d65c8f834ce39'
+
+COCOAPODS: 1.0.1
