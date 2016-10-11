@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82E633941DAD1C72005376F8 /* testLift.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E633931DAD1C72005376F8 /* testLift.m */; };
+		82E633961DAD2783005376F8 /* testKeyPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E633951DAD2783005376F8 /* testKeyPath.m */; };
+		82E633981DAD2B34005376F8 /* testDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E633971DAD2B34005376F8 /* testDictionary.m */; };
+		82E6339A1DAD2EDB005376F8 /* testNSIndexSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E633991DAD2EDB005376F8 /* testNSIndexSet.m */; };
+		82E6339C1DAD3031005376F8 /* testNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E6339B1DAD3031005376F8 /* testNotification.m */; };
+		82E6339E1DAD3231005376F8 /* testDealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E6339D1DAD3231005376F8 /* testDealloc.m */; };
+		82E633A01DAD334C005376F8 /* testKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E6339F1DAD334C005376F8 /* testKVO.m */; };
 		85AF7C781DACDD800078208F /* testFlatten.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AF7C771DACDD800078208F /* testFlatten.m */; };
 		85AF7C7A1DACEA5B0078208F /* testFlattenMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AF7C791DACEA5B0078208F /* testFlattenMap.m */; };
 		85AF7C7C1DACEFCD0078208F /* testThen.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AF7C7B1DACEFCD0078208F /* testThen.m */; };
@@ -37,6 +44,13 @@
 		06C118B51E34528BBA1B550E /* Pods_RAC_Study.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAC_Study.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		09EF1B79DA9C0ACD3BD98F3B /* Pods-RAC-Study-RAC-StudyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC-Study-RAC-StudyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC-Study-RAC-StudyTests/Pods-RAC-Study-RAC-StudyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		53E82945B9809A11804AFED3 /* Pods-RAC-Study.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC-Study.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC-Study/Pods-RAC-Study.debug.xcconfig"; sourceTree = "<group>"; };
+		82E633931DAD1C72005376F8 /* testLift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testLift.m; sourceTree = "<group>"; };
+		82E633951DAD2783005376F8 /* testKeyPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testKeyPath.m; sourceTree = "<group>"; };
+		82E633971DAD2B34005376F8 /* testDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testDictionary.m; sourceTree = "<group>"; };
+		82E633991DAD2EDB005376F8 /* testNSIndexSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testNSIndexSet.m; sourceTree = "<group>"; };
+		82E6339B1DAD3031005376F8 /* testNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testNotification.m; sourceTree = "<group>"; };
+		82E6339D1DAD3231005376F8 /* testDealloc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testDealloc.m; sourceTree = "<group>"; };
+		82E6339F1DAD334C005376F8 /* testKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testKVO.m; sourceTree = "<group>"; };
 		855F48976B76C415F2F4454C /* Pods-RAC-Study.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC-Study.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC-Study/Pods-RAC-Study.release.xcconfig"; sourceTree = "<group>"; };
 		85AF7C771DACDD800078208F /* testFlatten.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testFlatten.m; sourceTree = "<group>"; };
 		85AF7C791DACEA5B0078208F /* testFlattenMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testFlattenMap.m; sourceTree = "<group>"; };
@@ -128,6 +142,13 @@
 		85CAA55B1DACC7CB0094E631 /* RAC-StudyTests */ = {
 			isa = PBXGroup;
 			children = (
+				82E6339F1DAD334C005376F8 /* testKVO.m */,
+				82E6339D1DAD3231005376F8 /* testDealloc.m */,
+				82E6339B1DAD3031005376F8 /* testNotification.m */,
+				82E633991DAD2EDB005376F8 /* testNSIndexSet.m */,
+				82E633971DAD2B34005376F8 /* testDictionary.m */,
+				82E633951DAD2783005376F8 /* testKeyPath.m */,
+				82E633931DAD1C72005376F8 /* testLift.m */,
 				85AF7C7F1DACFDEE0078208F /* testSwitch.m */,
 				85AF7C7D1DACFA8C0078208F /* testCombineLatest.m */,
 				85AF7C7B1DACEFCD0078208F /* testThen.m */,
@@ -372,11 +393,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82E633941DAD1C72005376F8 /* testLift.m in Sources */,
 				85AF7C7C1DACEFCD0078208F /* testThen.m in Sources */,
+				82E633981DAD2B34005376F8 /* testDictionary.m in Sources */,
 				85AF7C7E1DACFA8C0078208F /* testCombineLatest.m in Sources */,
+				82E633A01DAD334C005376F8 /* testKVO.m in Sources */,
+				82E6339E1DAD3231005376F8 /* testDealloc.m in Sources */,
 				85AF7C7A1DACEA5B0078208F /* testFlattenMap.m in Sources */,
 				85AF7C801DACFDEE0078208F /* testSwitch.m in Sources */,
+				82E6339C1DAD3031005376F8 /* testNotification.m in Sources */,
+				82E6339A1DAD2EDB005376F8 /* testNSIndexSet.m in Sources */,
 				85AF7C781DACDD800078208F /* testFlatten.m in Sources */,
+				82E633961DAD2783005376F8 /* testKeyPath.m in Sources */,
 				85CAA55D1DACC7CB0094E631 /* RAC_StudyTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
