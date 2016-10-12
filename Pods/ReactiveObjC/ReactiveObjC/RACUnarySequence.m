@@ -31,7 +31,7 @@
 	return [sequence setNameWithFormat:@"+return: %@", RACDescription(value)];
 }
 
-#pragma mark RACSequence
+#pragma mark RACSequencec
 
 - (RACSequence *)tail {
 	return nil;
