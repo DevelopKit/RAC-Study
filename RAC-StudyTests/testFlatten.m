@@ -8,6 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import <ReactiveObjC/ReactiveObjC.h>
+#import "Macros.h"
 @interface testFlatten : XCTestCase
 
 @end
@@ -19,9 +20,7 @@
     RACSequence *numbers = [@"1 2 3 4 5 6" componentsSeparatedByString:@" "].rac_sequence;
     RACSequence *letters = [@"A B C D E F" componentsSeparatedByString:@" "].rac_sequence;
     RACSequence *sequence = @[numbers,letters].rac_sequence;
-    [[sequence flatten].signal subscribeNext:^(id x) {
-       NSLog(@"value is %@",x);
-    }];
+    [[sequence flatten].signal SUBSCRIBE];
 }
 
 - (void)testRACSignal{
@@ -34,11 +33,7 @@
         return nil;
     }];
     RACSignal *flattened = [signalOfSignals flatten];
-    [flattened subscribeNext:^(id x) {
-        NSLog(@"value is %@",x);
-    } completed:^{
-        NSLog(@"complete");
-    }];
+    [flattened SUBSCRIBE];
 
     [letters sendNext:@"A"];
     [numbers sendNext:@"1"];

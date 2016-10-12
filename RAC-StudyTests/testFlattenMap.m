@@ -8,6 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import <ReactiveObjC/ReactiveObjC.h>
+#import "Macros.h"
 @interface testFlattenMap : XCTestCase
 
 @end
@@ -20,11 +21,7 @@
     RACSequence *flattenMap = [numbers flattenMap:^RACStream *(NSString *value) {
         return @[value,value].rac_sequence;
     }];
-    [flattenMap.signal subscribeNext:^(id x) {
-        NSLog(@"value is %@",x);
-    } completed:^{
-       NSLog(@"complete");
-    }];
+    [flattenMap.signal SUBSCRIBE];
     
     //1 1 2 2 3 3 4 4 5 5 6 6
 }
@@ -37,11 +34,7 @@
             return [RACSequence return:[value stringByAppendingString:value]];
         }
     }];
-    [flattenMap.signal subscribeNext:^(id x) {
-        NSLog(@"value is %@",x);
-    } completed:^{
-        NSLog(@"complete");
-    }];
+    [flattenMap.signal SUBSCRIBE];
     
     //11 22 33 44 55 66
 }
@@ -54,11 +47,7 @@
             return nil;
         }];
     }];
-    [flattenMap subscribeNext:^(id x) {
-        NSLog(@"value is %@",x);
-    } completed:^{
-        NSLog(@"complete");
-    }];
+    [flattenMap SUBSCRIBE];
 
     //AA BB CC DD EE FF
 }

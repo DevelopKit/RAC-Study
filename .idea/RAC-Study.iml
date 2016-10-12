@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CIDR_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Podfile" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RAC-StudyTests/People.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RAC-StudyTests/Macros.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RAC-StudyTests/testCombineLatest.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RAC-StudyTests/testFlatten.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RAC-StudyTests/People.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RAC-StudyTests/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RAC-StudyTests/testFlattenMap.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RAC-StudyTests/testKeyPath.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RAC-StudyTests/testKVO.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RAC-StudyTests/testNotification.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RAC-StudyTests/testSwitch.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RAC-StudyTests/testNSIndexSet.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RAC-StudyTests/testDealloc.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RAC-StudyTests/testThen.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RAC-StudyTests/testLift.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RAC-StudyTests/RAC_StudyTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RAC-StudyTests/testDictionary.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RAC-StudyTests/testSelector.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RAC-Study/Assets.xcassets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RAC-Study/ViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RAC-Study/AppDelegate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RAC-Study/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RAC-Study/main.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RAC-Study/ViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RAC-Study/AppDelegate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RAC-Study/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RAC-Study/Base.lproj/Main.storyboard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSUserDefaults+RACSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSFileHandle+RACSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UIBarButtonItem+RACCommandSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSObject+RACLifting.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACSequence.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSFileHandle+RACSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UIRefreshControl+RACCommandSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACSequence.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSString+RACSequenceAdditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UIRefreshControl+RACCommandSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACSubscriber.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACEvent.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSObject+RACKVOWrapper.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACSubscriber.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACEvent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACCompoundDisposable.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/MKAnnotationView+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSObject+RACKVOWrapper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACQueueScheduler.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACTupleSequence.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/ReactiveObjC.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACEmptySequence.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSObject+RACDescription.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UIAlertView+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UITextView+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UIControl+RACSignalSupportPrivate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UIAlertView+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UITextView+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UIControl+RACSignalSupportPrivate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UICollectionReusableView+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACErrorSignal.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UISegmentedControl+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UITableViewHeaderFooterView+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACErrorSignal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACMulticastConnection+Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UISegmentedControl+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACCompoundDisposable.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACSignal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACDisposable.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UIDatePicker+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACDisposable.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UIDatePicker+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACSignal.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSIndexSet+RACSequenceAdditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACGroupedSignal.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACUnit.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACSerialDisposable.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACGroupedSignal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACBehaviorSubject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSString+RACSequenceAdditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACSerialDisposable.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UIStepper+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UIBarButtonItem+RACCommandSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACArraySequence.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACCompoundDisposableProvider.d" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSOrderedSet+RACSequenceAdditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACScopedDisposable.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACBehaviorSubject.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACSubscriptionScheduler.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSURLConnection+RACSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACScopedDisposable.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSObject+RACDeallocating.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACSubscriptionScheduler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSURLConnection+RACSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSString+RACKeyPathUtilities.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UISlider+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSInvocation+RACTypeParsing.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSString+RACKeyPathUtilities.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACReturnSignal.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UISlider+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACKVOChannel.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSData+RACSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACReturnSignal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UIButton+RACCommandSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSInvocation+RACTypeParsing.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSData+RACSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACScheduler+Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACKVOProxy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UIGestureRecognizer+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UIImagePickerController+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACKVOProxy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UITextField+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UIGestureRecognizer+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UIImagePickerController+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UITextField+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACIndexSetSequence.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACDelegateProxy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACIndexSetSequence.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACTestScheduler.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSObject+RACDeallocating.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACSubscriptingAssignmentTrampoline.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACDelegateProxy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSSet+RACSequenceAdditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACStream.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACTuple.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACReplaySubject.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSSet+RACSequenceAdditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACStream.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACValueTransformer.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACReplaySubject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACEmptySignal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACTupleSequence.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACQueueScheduler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UIControl+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACDynamicSequence.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UIControl+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACDynamicSequence.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACScheduler+Subclass.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACStream+Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACUnit.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACEmptySignal.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACStringSequence.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UISwitch+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/extobjc/EXTScope.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/extobjc/EXTRuntimeExtensions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/extobjc/metamacros.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/extobjc/EXTRuntimeExtensions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/extobjc/EXTKeyPathCoding.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UISwitch+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACKVOTrampoline.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSObject+RACSelectorSignal.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSDictionary+RACSequenceAdditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACKVOTrampoline.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSObject+RACSelectorSignal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSDictionary+RACSequenceAdditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSIndexSet+RACSequenceAdditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACSignalSequence.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACPassthroughSubscriber.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACBlockTrampoline.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UIActionSheet+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UIActionSheet+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACSubject.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UITableViewHeaderFooterView+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACSubject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACScheduler.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACValueTransformer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACChannel.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACScheduler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACUnarySequence.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACTestScheduler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACChannel.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACUnarySequence.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACMulticastConnection.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACImmediateScheduler.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACMulticastConnection.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACSignal+Operations.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACImmediateScheduler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACTargetQueueScheduler.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSOrderedSet+RACSequenceAdditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/MKAnnotationView+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSEnumerator+RACSequenceAdditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACSubscriptingAssignmentTrampoline.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACSignal+Operations.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSArray+RACSequenceAdditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSEnumerator+RACSequenceAdditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACArraySequence.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UITableViewCell+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSArray+RACSequenceAdditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UITableViewCell+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACSignalProvider.d" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACBlockTrampoline.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACTuple.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSUserDefaults+RACSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACQueueScheduler+Subclass.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACStringSequence.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACSubscriber+Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSObject+RACPropertySubscribing.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACDynamicSignal.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACTargetQueueScheduler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACCommand.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACDynamicSignal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSNotificationCenter+RACSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACCommand.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UIStepper+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACPassthroughSubscriber.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACSignalSequence.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UIButton+RACCommandSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACEagerSequence.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSObject+RACDescription.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSNotificationCenter+RACSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACEagerSequence.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSString+RACSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSString+RACSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACKVOChannel.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/RACEmptySequence.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSObject+RACPropertySubscribing.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/UICollectionReusableView+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveObjC/ReactiveObjC/NSObject+RACLifting.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-RAC-Study-RAC-StudyTests/Pods-RAC-Study-RAC-StudyTests-frameworks.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-RAC-Study-RAC-StudyTests/Pods-RAC-Study-RAC-StudyTests-acknowledgements.markdown" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-RAC-Study-RAC-StudyTests/Pods-RAC-Study-RAC-StudyTests.debug.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-RAC-Study-RAC-StudyTests/Pods-RAC-Study-RAC-StudyTests-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-RAC-Study-RAC-StudyTests/Pods-RAC-Study-RAC-StudyTests-resources.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-RAC-Study-RAC-StudyTests/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-RAC-Study-RAC-StudyTests/Pods-RAC-Study-RAC-StudyTests.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-RAC-Study-RAC-StudyTests/Pods-RAC-Study-RAC-StudyTests-acknowledgements.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-RAC-Study-RAC-StudyTests/Pods-RAC-Study-RAC-StudyTests-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-RAC-Study-RAC-StudyTests/Pods-RAC-Study-RAC-StudyTests.release.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-RAC-Study/Pods-RAC-Study-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-RAC-Study/Pods-RAC-Study-resources.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-RAC-Study/Pods-RAC-Study-frameworks.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-RAC-Study/Pods-RAC-Study.release.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-RAC-Study/Pods-RAC-Study-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-RAC-Study/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-RAC-Study/Pods-RAC-Study-acknowledgements.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-RAC-Study/Pods-RAC-Study.debug.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-RAC-Study/Pods-RAC-Study-acknowledgements.markdown" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-RAC-Study/Pods-RAC-Study.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReactiveObjC/ReactiveObjC.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReactiveObjC/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReactiveObjC/ReactiveObjC-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReactiveObjC/ReactiveObjC-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReactiveObjC/ReactiveObjC-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReactiveObjC/ReactiveObjC.modulemap" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/XcodeKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/DTPerformanceSession.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CallKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/HealthKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/PassKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/StoreKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IntentsUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreVideo.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Messages.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SceneKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OpenGLES.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/EventKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WatchKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GSS.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AudioUnit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreSpotlight.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/HealthKitUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Metal.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/VideoToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Contacts.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/QuickLook.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SafariServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameplayKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WebKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CloudKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreImage.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/EventKitUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Photos.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MetalPerformanceShaders.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Frameworks/AVFAudio.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Intents.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/PushKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreTelephony.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UserNotificationsUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreText.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Speech.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ReplayKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SpriteKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Twitter.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/NetworkExtension.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreAudio.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreData.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MapKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ContactsUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMedia.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UserNotifications.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Security.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ModelIO.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GLKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MetalKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/HomeKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameController.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AdSupport.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Social.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accounts.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OpenAL.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/NotificationCenter.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/JavaScriptCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ImageIO.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/PhotosUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AddressBook.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MessageUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreLocation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/QuartzCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/iAd.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMotion.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/8.0.0/include" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/XcodeKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/DTPerformanceSession.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CallKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/HealthKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/PassKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/StoreKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IntentsUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreVideo.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Messages.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SceneKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OpenGLES.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/EventKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WatchKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GSS.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AudioUnit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreSpotlight.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/HealthKitUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Metal.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/VideoToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Contacts.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/QuickLook.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SafariServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameplayKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WebKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CloudKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreImage.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/EventKitUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Photos.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MetalPerformanceShaders.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Frameworks/AVFAudio.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Intents.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/PushKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreTelephony.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UserNotificationsUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreText.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Speech.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ReplayKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SpriteKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Twitter.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/NetworkExtension.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreAudio.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreData.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MapKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ContactsUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMedia.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UserNotifications.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Security.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ModelIO.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GLKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MetalKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/HomeKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameController.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AdSupport.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Social.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accounts.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OpenAL.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/NotificationCenter.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/JavaScriptCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ImageIO.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/PhotosUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AddressBook.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MessageUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreLocation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/QuartzCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/iAd.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMotion.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/8.0.0/include" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "85CAA53E1DACC7CB0094E631"
-               BuildableName = ".app"
+               BuildableName = "RAC-Study.app"
                BlueprintName = "RAC-Study"
                ReferencedContainer = "container:RAC-Study.xcodeproj">
             </BuildableReference>
@@ -66,7 +66,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "85CAA53E1DACC7CB0094E631"
-            BuildableName = ".app"
+            BuildableName = "RAC-Study.app"
             BlueprintName = "RAC-Study"
             ReferencedContainer = "container:RAC-Study.xcodeproj">
          </BuildableReference>

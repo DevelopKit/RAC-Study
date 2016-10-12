@@ -8,36 +8,8 @@
 
 #import <XCTest/XCTest.h>
 #import <ReactiveObjC/ReactiveObjC.h>
-
-@interface House : NSObject
-@property (nonatomic,strong) NSString *address;
-@end
-@implementation House
--(instancetype)init{
-    self = [super init];
-    if (self) {
-        self.address = @"Beijing";
-    }
-    return self;
-}
-@end
-
-@interface Person : NSObject
-@property (nonatomic,strong) NSString *name;
-@property (nonatomic,strong) House *currentHouse;
-@property (nonatomic,strong) NSArray *houses;
-@end
-@implementation Person
--(instancetype)init{
-    self = [super init];
-    if (self) {
-        self.name = @"Tom";
-        self.currentHouse = [House new];
-        self.houses = @[[House new],[House new],[House new]];
-    }
-    return self;
-}
-@end
+#import "People.h"
+#import "Macros.h"
 
 @interface testKVO : XCTestCase
 
@@ -45,47 +17,52 @@
 
 @implementation testKVO
 
-- (void)test1{
-    Person *people = [Person new];
-    [[people rac_valuesForKeyPath:@"name" observer:self] subscribeNext:^(id  _Nullable x) {
-        NSLog(@"%@",x);
-    } completed:^{
-        NSLog(@"complete");
-    }];
+- (void)testBasicUse{
+    People *people = [People new];
+    [[people rac_valuesForKeyPath:@"name" observer:self] SUBSCRIBE];
     
     people.name = @"Jerry";
 }
-- (void)test2{
-    Person *person = [Person new];
-    [[person rac_valuesForKeyPath:@keypath(person,name) observer:self] subscribeNext:^(id  _Nullable x) {
-        NSLog(@"%@",x);
-    } completed:^{
-        NSLog(@"complete");
-    }];
-    person.name = @"Jerry";
+- (void)testKeypathWithObjAndPath1{
+    People *people = [People new];
+    [[people rac_valuesForKeyPath:@keypath(people,name) observer:self] SUBSCRIBE];
+    people.name = @"Jerry";
+}
+- (void)testKeypathWithObjAndPath2{
+    People *people = [People new];
+    [[people rac_valuesForKeyPath:@keypath(People.new,name) observer:self] SUBSCRIBE];
+    people.name = @"Jerry";
+}
+- (void)testKeypathWithPath{
+    People *people = [People new];
+    [[people rac_valuesForKeyPath:@keypath(people.name) observer:self] SUBSCRIBE];
+    people.name = @"Jerry";
 
 }
+- (void)testKeypathWithSubObjAndPath{
+    People *people = [People new];
+    [[people rac_valuesForKeyPath:@keypath(people,currentHouse.address) observer:self] SUBSCRIBE];
+    people.currentHouse.address = @"ShangHai";
 
-- (void)test3{
-    Person *person = [Person new];
-    NSString *keypath = @collectionKeypath(person.houses,House.new,address);
-    NSLog(@"keypath is %@",keypath);
-    [[person rac_valuesForKeyPath:keypath observer:self] subscribeNext:^(id  _Nullable x) {
-        NSLog(@"%@",x);
-    } completed:^{
-        NSLog(@"complete");
-    }];
-    person.name = @"Jerry";
-    House *house = [person.houses firstObject];
-    house.address = @"ShangHai";
 }
-- (void)test4{
-    Person *person = [Person new];
-    [[person rac_valuesAndChangesForKeyPath:@keypath(person.name) options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld observer:self] subscribeNext:^(RACTuple *tuple) {
-        NSLog(@"%@",tuple.allObjects);
-    } completed:^{
-        NSLog(@"complete");
-    }];
-    person.name = @"Jerry";
+- (void)testKeypathWithSubPath{
+    People *people = [People new];
+    [[people rac_valuesForKeyPath:@keypath(people.currentHouse.address) observer:self] SUBSCRIBE];
+    people.currentHouse.address = @"ShangHai";
+    
+}
+- (void)testCollectionKVO{
+//    People *people = [People new];
+//    NSString *keypath = @collectionKeypath(people.houses,House.new,address);
+//    NSLog(@"keypath is %@",keypath);
+//    [[people.houses rac_valuesForKeyPath:keypath observer:self] SUBSCRIBE];
+//    people.name = @"Jerry";
+//    House *house = [people.houses firstObject];
+//    house.address = @"ShangHai";
+}
+- (void)testKVOWithOptions{
+    People *people = [People new];
+    [[people rac_valuesAndChangesForKeyPath:@keypath(people.name) options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld observer:self] SUBSCRIBE];
+    people.name = @"Jerry";
 }
 @end

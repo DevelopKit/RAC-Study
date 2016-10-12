@@ -9,7 +9,7 @@
 #import <XCTest/XCTest.h>
 
 #import <ReactiveObjC/ReactiveObjC.h>
-
+#import "Macros.h"
 
 @interface RAC_StudyTests : XCTestCase
 
@@ -31,9 +31,7 @@
 - (void)testMerge{
     RACSignal *signal = [@"1 2 3 4 5 6 7" componentsSeparatedByString:@" "].rac_sequence.signal;
     RACSignal *signal1 = [@"A B C D E F G" componentsSeparatedByString:@" "].rac_sequence.signal;
-    [[signal merge:signal1] subscribeNext:^(NSString *string) {
-        NSLog(@"Instance method - merge string is %@",string);
-    }];
+    [[signal merge:signal1] SUBSCRIBE];
 //    [[signal1 merge:signal] subscribeNext:^(id x) {
 //        NSLog(@"Instance method - merge string is %@",x);
 //    }];
@@ -76,23 +74,17 @@
     RACSignal *signal = [@"1 2 3 4 5" componentsSeparatedByString:@" "].rac_sequence.signal;
     [[signal map:^id(NSString *value) {
         return [value stringByAppendingString:value];
-    }] subscribeNext:^(id x) {
-        NSLog(@"map value is %@",x);
-    }];
+    }] SUBSCRIBE];
 }
 - (void)testFilter{
     RACSignal *signal = [@"1 2 3 4 5" componentsSeparatedByString:@" "].rac_sequence.signal;
     [[signal filter:^BOOL(NSString * value) {
         return value.integerValue%2 == 0;
-    }] subscribeNext:^(id x) {
-        NSLog(@"filter value is %@",x);
-    }];
+    }] SUBSCRIBE];
 }
 - (void)testConcat{
     RACSignal *signal1 = [@"1 2 3 4 5 6 7" componentsSeparatedByString:@" "].rac_sequence.signal;
     RACSignal *signal2 = [@"A B C D E F G" componentsSeparatedByString:@" "].rac_sequence.signal;
-    [[RACSignal concat:@[signal2,signal1]] subscribeNext:^(id x) {
-       NSLog(@"concat value is %@",x);
-    }];
+    [[RACSignal concat:@[signal2,signal1]] SUBSCRIBE];
 }
 @end

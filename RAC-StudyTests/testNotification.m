@@ -8,6 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import <ReactiveObjC/ReactiveObjC.h>
+#import "Macros.h"
 @interface testNotification : XCTestCase
 
 @end
@@ -16,12 +17,7 @@
 
 - (void)testExample {
     NSObject *obj = [NSObject new];
-    [[[[NSNotificationCenter defaultCenter] rac_addObserverForName:@"notification" object:nil] takeUntil:[obj rac_willDeallocSignal]] subscribeNext:^(id  _Nullable x) {
-        //value is a notification
-        NSLog(@"value is %@",x);
-    } completed:^{
-        NSLog(@"complete");
-    }];
+    [[[[NSNotificationCenter defaultCenter] rac_addObserverForName:@"notification" object:nil] takeUntil:[obj rac_willDeallocSignal]] SUBSCRIBE];
     [[NSNotificationCenter defaultCenter] postNotificationName:@"notification" object:@"info"];
 }
 

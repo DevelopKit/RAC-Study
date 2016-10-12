@@ -8,6 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import <ReactiveObjC/ReactiveObjC.h>
+#import "Macros.h"
 @interface testCombineLatest : XCTestCase
 
 @end
@@ -17,9 +18,7 @@
 - (void)testCombineLatest{
     RACSubject *numbers = [RACSubject subject];
     RACSubject *letters = [RACSubject subject];
-    [[RACSignal combineLatest:@[numbers,letters]] subscribeNext:^(RACTuple *tuple) {
-       NSLog(@"value is %@ %@",tuple.first,tuple.second);
-    }];
+    [[RACSignal combineLatest:@[numbers,letters]] SUBSCRIBE];
     [numbers sendNext:@"1"];
     [numbers sendNext:@"2"];
     [letters sendNext:@"A"];
@@ -32,9 +31,7 @@
     RACSubject *letters = [RACSubject subject];
     [[[RACSignal combineLatest:@[numbers, letters]] reduceEach:^(NSString *a,NSString *b) {
         return [a stringByAppendingString:b];
-    }] subscribeNext:^(id x) {
-        NSLog(@"value is %@",x);
-    }];
+    }] SUBSCRIBE];
     [numbers sendNext:@"1"];
     [numbers sendNext:@"2"];
     [letters sendNext:@"A"];
@@ -48,9 +45,7 @@
     RACSubject *letters = [RACSubject subject];
     [[RACSignal combineLatest:@[numbers,letters] reduce:^(NSString *a,NSString *b) {
         return [a stringByAppendingString:b];
-    }] subscribeNext:^(NSString *value) {
-        NSLog(@"value is %@",value);
-    }];
+    }] SUBSCRIBE];
     [numbers sendNext:@"1"];
     [numbers sendNext:@"2"];
     [letters sendNext:@"A"];

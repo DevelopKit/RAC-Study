@@ -8,6 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import <ReactiveObjC/ReactiveObjC.h>
+#import "Macros.h"
 @interface testSwitch : XCTestCase
 
 @end
@@ -18,9 +19,7 @@
     RACSubject *numbers = [RACSubject subject];
     RACSubject *letters = [RACSubject subject];
     RACSubject *signalOfSignals = [RACSubject subject];
-    [[signalOfSignals switchToLatest] subscribeNext:^(id x) {
-       NSLog(@"value is %@",x);
-    }];
+    [[signalOfSignals switchToLatest] SUBSCRIBE];
 
     [signalOfSignals sendNext:numbers];
     [numbers sendNext:@"1"];

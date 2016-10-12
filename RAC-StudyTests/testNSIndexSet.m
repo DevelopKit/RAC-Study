@@ -8,6 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import <ReactiveObjC/ReactiveObjC.h>
+#import "Macros.h"
 @interface testNSIndexSet : XCTestCase
 
 @end
@@ -16,10 +17,6 @@
 
 - (void)testIndexSet{
     NSIndexSet *indexSet = [NSIndexSet indexSetWithIndex:10];
-    [indexSet.rac_sequence.signal subscribeNext:^(NSNumber *  _Nullable x) {
-        NSLog(@"%@",x.stringValue);
-    } completed:^{
-        NSLog(@"complete");
-    }];
+    [indexSet.rac_sequence.signal SUBSCRIBE];
 }
 @end

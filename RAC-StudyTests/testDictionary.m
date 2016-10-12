@@ -8,6 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import <ReactiveObjC/ReactiveObjC.h>
+#import "Macros.h"
 @interface testDictionary : XCTestCase
 {
     NSDictionary *dictionary;
@@ -30,27 +31,15 @@
 }
 
 - (void)testAll{
-    [dictionary.rac_sequence.signal subscribeNext:^(RACTuple *tuple) {
-        NSLog(@"key is %@,value is %@",tuple.first,tuple.second);
-    } completed:^{
-        NSLog(@"complete");
-    }];
+    [dictionary.rac_sequence.signal SUBSCRIBE];
     //顺序和写入的顺序不一样
 }
 
 - (void)testKeys{
-    [dictionary.rac_keySequence.signal subscribeNext:^(id  _Nullable x) {
-        NSLog(@"key is %@",x);
-    } completed:^{
-        NSLog(@"complete");
-    }];
+    [dictionary.rac_keySequence.signal SUBSCRIBE];
 }
 - (void)testValues{
-    [dictionary.rac_valueSequence.signal subscribeNext:^(id  _Nullable x) {
-        NSLog(@"value is %@",x);
-    } completed:^{
-        NSLog(@"complete");
-    }];
+    [dictionary.rac_valueSequence.signal SUBSCRIBE];
 }
 
 @end
